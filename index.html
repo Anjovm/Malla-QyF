@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla QyF - Ani</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f7f7f7; }
+    h1 { text-align: center; }
+    .malla { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; max-width: 900px; margin: auto; }
+    .ramo {
+      padding: 20px; border-radius: 10px; text-align: center;
+      font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .aprobado { background: #c8e6c9; }
+    .cursando { background: #fff59d; }
+    .pendiente { background: #ef9a9a; }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular - Química y Farmacia</h1>
+  <div class="malla">
+    <div class="ramo aprobado">Química General I</div>
+    <div class="ramo aprobado">Biología Celular</div>
+    <div class="ramo cursando">Álgebra y Cálculo</div>
+    <div class="ramo pendiente">Microbiología</div>
+    <div class="ramo pendiente">Química Orgánica</div>
+    <div class="ramo pendiente">Farmacología I</div>
+  </div>
+</body>
+</html>
